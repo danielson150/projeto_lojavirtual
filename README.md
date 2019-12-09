@@ -7,7 +7,7 @@
 A atividade se refere a implementação da Atividade nomeada de projeto_web_apis_01.pdf localizado neste [link](https://drive.google.com/drive/u/1/folders/1GCKSVXMMiTQO2pVaTWF3WNi4P99p8iIK) juntamente com um documento detalhado explicando a API e um video explicativo.
 
 #### Atividade / Questão Nº1
-A API possui no total de 6 entidade mais a utilização do User do próprio Django, sendo elas Categoria, Item, ItemPurchase, Purchase, InformacoesUsuario e Carteira Digital.
+A API possui no total de 6 entidade mais a utilização do User do próprio Django, sendo elas **Categoria, Item, ItemPurchase, Purchase, InformacoesUsuario e Carteira Digital.**
 Categoria é uma entidade mais relacionada a buscas possuindo somente dois campos(name,description) já Item é uma entidade mais forte pois possui maiores interações com outras entidades e outras também dependem dela ja que muitas ações podem ser negadas de acordo com a quantidade do item no estoque.
 ItemPurchase se da melhor explicada como um carrinho onde tempos a quantidade dos itens comprado relacionanado ele a uma compra em aberto.
 Purchase tem se valor total calculado de acordo com os preços no carrinho a criação de suas instâncias se da automaticamente não sendo permitido a criação de novas por vontade própria ou deleta-las.
